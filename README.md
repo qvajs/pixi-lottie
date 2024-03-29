@@ -7,7 +7,7 @@
 
 <!-- /automd -->
 
-This is my package description.
+PixiJS plugin for rendering Lottie animations.
 
 ## Usage
 
@@ -36,25 +36,31 @@ bun install @qva/pixi-lottie
 
 Import:
 
-<!-- automd:jsimport cjs cdn name="pkg" -->
+<!-- automd:jsimport cjs cdn imports="LottieSprite" -->
 
 **ESM** (Node.js, Bun)
 
 ```js
-import {} from "pkg";
+import { LottieSprite } from "@qva/pixi-lottie";
 ```
 
 **CommonJS** (Legacy Node.js)
 
 ```js
-const {} = require("pkg");
+const { LottieSprite } = require("@qva/pixi-lottie");
 ```
 
 **CDN** (Deno, Bun and Browsers)
 
 ```js
-import {} from "https://esm.sh/pkg";
+import { LottieSprite } from "https://esm.sh/@qva/pixi-lottie";
 ```
+
+<!-- /automd -->
+
+<!-- automd:jsdocs src="./src/index.ts" -->
+
+### `LottieSprite()`
 
 <!-- /automd -->
 
@@ -76,11 +82,11 @@ import {} from "https://esm.sh/pkg";
 
 <!-- automd:contributors license=MIT -->
 
-Published under the [MIT](https://github.com/unjs/packageName/blob/main/LICENSE) license.
-Made by [community](https://github.com/unjs/packageName/graphs/contributors) 💛
+Published under the [MIT](https://github.com/qvajs/pixi-lottie/blob/main/LICENSE) license.
+Made by [community](https://github.com/qvajs/pixi-lottie/graphs/contributors) 💛
 <br><br>
-<a href="https://github.com/unjs/packageName/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=unjs/packageName" />
+<a href="https://github.com/qvajs/pixi-lottie/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=qvajs/pixi-lottie" />
 </a>
 
 <!-- /automd -->
