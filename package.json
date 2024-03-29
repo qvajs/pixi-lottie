@@ -1,8 +1,8 @@
 {
   "name": "@qva/pixi-lottie",
-  "version": "0.0.1-alpha.0",
-  "description": "",
-  "repository": "unjs/packageName",
+  "version": "0.0.1",
+  "description": "using lottie in pixi.js",
+  "repository": "https://github.com/qvajs/pixi-lottie",
   "license": "MIT",
   "sideEffects": false,
   "type": "module",
@@ -44,5 +44,8 @@
     "unbuild": "^2.0.0",
     "vitest": "^1.4.0"
   },
-  "packageManager": "pnpm@8.15.5"
+  "packageManager": "pnpm@8.15.5",
+  "publishConfig": {
+    "access": "public"
+  }
 }
