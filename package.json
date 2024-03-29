@@ -1,6 +1,6 @@
 {
   "name": "@qva/pixi-lottie",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "using lottie in pixi.js",
   "repository": "https://github.com/qvajs/pixi-lottie",
   "license": "MIT",
@@ -30,6 +30,9 @@
     "test": "pnpm lint && pnpm test:types && vitest run --coverage",
     "test:types": "tsc --noEmit --skipLibCheck"
   },
+  "peerDependencies": {
+    "pixi.js": ">=7.0.0 || >=8.0.0"
+  },
   "devDependencies": {
     "@types/node": "^20.11.30",
     "@vitest/coverage-v8": "^1.4.0",
@@ -47,5 +50,9 @@
   "packageManager": "pnpm@8.15.5",
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "lottie-web": "^5.12.2",
+    "pixi.js": "^8.0.4"
   }
 }
